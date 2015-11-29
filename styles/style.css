@@ -1,0 +1,15 @@
+.dynamicDiv {
+  border: 5px;
+  border-radius: 5px;
+  color: blue;
+  width: 6.5em;
+  height: 3em;
+  display: inline-block;
+}
+
+.hover {
+  background-color: black;
+  transition: 3s color; /*animates for 1 second*/
+      -moz-transition: 3s color; /*For Firefox < 16.0*/
+      -webkit-transition: 3s color; /*For WebKit (Chrome, Safari)*/
+    }
